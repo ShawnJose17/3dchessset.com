@@ -1,17 +1,30 @@
 body{
-    margin: 0;
-    padding: 0;
     background: url(images/download.jfif) no-repeat;
-    background-size: cover;
+    background-size: 1599px 899px;
+}
+.text-banner{
+	width: 65%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background-color: #20bf55;
+	background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+	border: 0;
+	outline: none;
+	border-radius: 50px;
+	text-align: center;
+	color: white;
+    font-family: 'Century Gothic',sans-serif;
 }
 .box{
-    margin-top: 100px;
+    margin-top: 50px;
     width: 600px;
     background: rgba(0, 0, 0, 0.4);
     padding: 40px;
     color: white;
     font-family: 'Century Gothic',sans-serif;
-    margin-left: 430px;
+    margin-left: 435px;
 }
 .box img{
     margin-left: 200px;
@@ -19,32 +32,37 @@ body{
 .box h1{
     text-align: center;
 }
-
-.banner img{
-    width: 350px;
-    margin-left: 600px;
-    margin-top: 30px;
-}
-
 /*-----------------footer---------------*/
 
 .footer{
-    width: 100%;
-    height: 60px;
-    margin-top: 90px;
-    background: rgba(255, 255, 255, 0.4);
-    padding: 40px;
-    color: black;
+	width: 96.3%;
+	height: 310px;
+	padding: 10px 30px;
+	background-color: #63a4ff;
+	background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);border: 0;
+	border-radius: 50px;
     font-family: 'Century Gothic',sans-serif;
+	margin-top: 184.5px;
+}
+.footer h4{
     text-align: center;
-    margin-left: -63px;
+	color: black;
 }
 .footer h3{
-    margin-top: -20px;
+    margin-top: 0px;
+	font-family: 'Century Gothic',sans-serif;
+    text-align: center;
+	color: black;
 }
 .footer a{
     text-decoration: none;
+	font-family: 'Century Gothic',sans-serif;
     color: black;
+	text-align: left;
+	position: relative;
+	top: -240px;
+	left: 60px;
+	font-size: 25px;
 }
 .btn{
 	color: #fff;
@@ -56,10 +74,20 @@ body{
 	cursor: pointer;
 	text-decoration: none;
     margin-left: 237px;
+	text-align: center;
 }
 .btn:hover{
 	border: 1px solid #fff;
 	background: #fff;
 	transition: 1s;
 	color: #000;
+}
+.footer img{
+	margin-left: 608px;
+	margin-top: -60px;
+}
+.footer video{
+	position: relative;
+	left: 1115px;
+	top: -430px;
 }
